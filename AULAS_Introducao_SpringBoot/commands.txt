@@ -1,0 +1,6 @@
+mvnw spring-boot:run
+
+mvnw spring-boot:run -Dserver.port=8085
+
+Não funcionou!
+export ENV_DB_URL=jdbc:h2:mem:db;DB_CLOSE_DELAY=-1
